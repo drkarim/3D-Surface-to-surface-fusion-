@@ -19,7 +19,7 @@ LMICP <source>
 
 The first two parameters ```source``` and ```target``` are the input and output VTK files. 
 
-The next <pre_registration_matrix_txt> is simply a textfile containing the 4x4 matrix of registering the source to the target, if they are in completely different positions in space. Here is an example matrix: 
+The next <pre_registration_matrix_txt> is simply a textfile containing each of the sixteen entries of the 4x4 matrix of registering the source to the target, if they are in completely different positions in space. Here is an example matrix: 
 ```
 -0.279057
 0.0734779
